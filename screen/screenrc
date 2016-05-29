@@ -207,8 +207,9 @@ termcapinfo linux C8
 # Red Hat's normal status line
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "[screen %n%?: %t%?] %h"
-hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+hardstatus string '%{bW}%-w%{.Yk}%n %t%{-}%+w %=%{.w}'
+#hardstatus string "[screen %n%?: %t%?] %h"
+#hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
 
 # bind = resize =
 # bind + resize +1
